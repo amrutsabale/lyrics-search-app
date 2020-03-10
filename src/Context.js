@@ -4,10 +4,7 @@ const Context = React.createContext();
 
 class Provider extends Component {
   state = {
-    track_list: [
-      { track: { track_name: "abc" } },
-      { track: { track_name: "123" } }
-    ],
+    track_list: [],
     heading: "Top 10 tracks"
   };
   componentDidMount() {
